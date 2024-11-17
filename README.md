@@ -1,6 +1,6 @@
 # Basic projects using React JS
 
-## **1 - Weather app**
+## **1 - Weather app(main)**
 
 #### Simple weather app using `ReactJS` and [API](https://home.openweathermap.org/api_keys)
 
