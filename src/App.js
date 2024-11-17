@@ -7,6 +7,11 @@ function App() {
   const [inputValue, setInputValue] = useState([]);
 
   const addTodo = () => {
+    if (todo.length >= 6) {
+      alert("Delete some task to create another one");
+      return;
+    }
+
     if (inputValue.trim !== "") {
       setTodo([...todo, inputValue]);
       setChecked([...checked, false]);
