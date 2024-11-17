@@ -65,10 +65,10 @@ body {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-/* .task.completed .task-text {
+.task.completed .task-text {
   text-decoration: line-through;
   color: #6c757d;
-} */
+}
 
 .task input[type="checkbox"] {
   margin-right: 10px;
