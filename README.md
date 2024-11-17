@@ -10,4 +10,4 @@ You can find free API Key on [openweathermap](https://openweathermap.org/)
 const API_KEY = "Your API Key";
 ```
 
-<img src="https://github.com/user-attachments/assets/ad026f48-4ecc-4cd2-9368-f9b4c428a283" width="250">
+<img src="https://github.com/user-attachments/assets/fa5c873f-6f53-407c-be7f-c0b586f2b0c9" width="250">
