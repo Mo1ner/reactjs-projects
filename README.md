@@ -11,3 +11,9 @@ const API_KEY = "Your API Key";
 ```
 
 <img src="https://github.com/user-attachments/assets/fa5c873f-6f53-407c-be7f-c0b586f2b0c9" width="250">
+
+## **2 - Todo list**
+
+#### Simple Todo list
+
+<img width="250" alt="todo list" src="https://github.com/user-attachments/assets/05c2dd19-25b6-4ea0-8cfb-00b853cf9eb8">
