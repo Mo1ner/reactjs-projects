@@ -13,81 +13,74 @@ body {
 }
 
 .App {
+  color: #fff;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
-.weather-widget {
-  background-color: #1a1a2e;
+.task-manager {
+  background-color: #fff;
+  color: #333;
   padding: 20px;
-  border-radius: 14px;
-  width: 350px;
-  height: 80vh;
-  color: #fff;
+  border-radius: 10px;
+  width: 320px;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
 }
 
-.search-bar {
+.task-manager input[type="text"] {
+  width: calc(100% - 80px);
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.task-manager button {
+  padding: 10px 22px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6a0dad;
+  color: #fff;
+  cursor: pointer;
+}
+
+.task-manager button:hover {
+  background-color: #5a0ca8;
+}
+
+.tasks {
+  margin-top: 20px;
+}
+
+.task {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
-}
-
-.search-bar input {
-  padding: 8px;
-  border-bottom: solid 3px #fff;
-  width: 60%;
-}
-
-.search-bar button {
-  padding: 10px 20px;
-  background-color: #ff4d4d;
-  border: none;
-  border-radius: 10px;
-  color: #fff;
-  cursor: pointer;
-}
-
-.search-bar button:active {
-  transform: translateY(-2px);
-}
-
-.weather-cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-}
-
-.weather-card {
-  position: relative;
-  height: 30vh;
-  color: #000;
-  background-color: #fff;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
   border-radius: 5px;
-  padding: 15px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.cross-img {
-  position: absolute;
-  width: 16px;
-  top: 8px;
-  right: 8px;
+/* .task.completed .task-text {
+  text-decoration: line-through;
+  color: #6c757d;
+} */
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.task .delete-btn {
+  background: none;
+  border: none;
+  color: #ff4d4d;
   cursor: pointer;
 }
-.weather-card h2 {
-  color: #404040;
-  font-size: 16px;
-  margin-bottom: 8px;
-}
 
-.weather-card p {
-  font-size: 40px;
-  margin-bottom: 35px;
-}
-
-.weather-icon {
-  font-size: 24px;
-}
-
-.weather-icon img {
-  width: 32px;
+.task .delete-btn:hover {
+  color: #ff1a1a;
 }
