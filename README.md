@@ -26,7 +26,7 @@ const API_KEY = "Your API Key";
 
 #### Materials i have used: [YouTube](https://www.youtube.com/watch?v=eS0GL73tkmw&t=4468s)
 
-<img width="400" alt="todo list" src="https://github.com/user-attachments/assets/fbd66ec8-2905-48fc-a1ac-cf534866ea1a">
+<img width="400" alt="convertor" src="https://github.com/user-attachments/assets/fbd66ec8-2905-48fc-a1ac-cf534866ea1a">
 
 ### Branch - `currency-convertor`
 
@@ -34,6 +34,16 @@ const API_KEY = "Your API Key";
 
 #### Modal window using `useState` hook
 
-<img width="400" alt="todo list" src="https://github.com/user-attachments/assets/fa136d27-343a-4b66-8c9e-dee910d02cb9">
+<img width="400" alt="modal window" src="https://github.com/user-attachments/assets/fa136d27-343a-4b66-8c9e-dee910d02cb9">
 
 ### Branch - `modal-window`
+
+# **5 - Carousel**
+
+#### Carousel using `useState`.
+
+I have used OnMouseEnter to change pictures when you hover over them. Also you can change pics just with arrows.
+
+<img width="400" alt="carousel" src="https://github.com/user-attachments/assets/2ad5b22b-12bc-425c-8e8a-12c86041b283">
+
+### Branch - `carousel`
