@@ -13,74 +13,14 @@ body {
 }
 
 .App {
-  color: #fff;
+  color: #000;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.task-manager {
-  background-color: #fff;
-  color: #333;
-  padding: 20px;
-  border-radius: 10px;
-  width: 320px;
-  box-shadow: 4px 4px rgba(0, 0, 0, 0.3);
-}
-
-.task-manager input[type="text"] {
-  width: calc(100% - 80px);
-  padding: 10px;
-  border: 2px solid #ccc;
-  border-radius: 5px;
-  outline: none;
-}
-
-.task-manager button {
-  padding: 10px 22px;
-  margin-left: 5px;
-  border: none;
-  border-radius: 5px;
-  background-color: #6a0dad;
-  color: #fff;
-  cursor: pointer;
-}
-
-.task-manager button:hover {
-  background-color: #5a0ca8;
-}
-
-.tasks {
-  margin-top: 20px;
-}
-
-.task {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.task.completed .task-text {
-  text-decoration: line-through;
-  color: #6c757d;
-}
-
-.task input[type="checkbox"] {
-  margin-right: 10px;
-}
-
-.task .delete-btn {
-  background: none;
-  border: none;
-  color: #ff4d4d;
-  cursor: pointer;
-}
-
-.task .delete-btn:hover {
-  color: #ff1a1a;
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  padding: 0 30px;
 }
