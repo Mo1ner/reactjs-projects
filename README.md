@@ -47,3 +47,11 @@ I have used OnMouseEnter to change pictures when you hover over them. Also you c
 <img width="400" alt="carousel" src="https://github.com/user-attachments/assets/2ad5b22b-12bc-425c-8e8a-12c86041b283">
 
 ### Branch - `carousel`
+
+# **6 - Sort by pricing**
+
+#### Sort pricing using `sort` and `mapping`.
+
+<img width="400" alt="carousel" src="https://github.com/user-attachments/assets/ca13fc9a-b20f-4787-8cdc-e833364dd9a3">
+
+### Branch - `sort`
