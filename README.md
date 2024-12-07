@@ -55,3 +55,11 @@ I have used OnMouseEnter to change pictures when you hover over them. Also you c
 <img width="400" alt="carousel" src="https://github.com/user-attachments/assets/ca13fc9a-b20f-4787-8cdc-e833364dd9a3">
 
 ### Branch - `sort`
+
+# **7 - Add 3d model**
+
+#### I have used [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction).
+
+<img width="400" alt="carousel" src="https://github.com/user-attachments/assets/21a2cbf3-0ac4-458d-b0cb-c6bbf8ec3e22">
+
+### Branch - `3d-model`
